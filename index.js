@@ -23,13 +23,11 @@ longWhisper()
 
 
 function sayHiToGrandma(string) {
-  var uppercase = "HELLO";
-  var tolowercase = 'hello'
-  
-  if (uppercase.toUpperCase('hello') === uppercase) {
+
+  if (string.toUpperCase('hello') === string) {
     return "YES INDEED!";
   }
-  if (lowercase.toLowerCase('HELLO') === lowercase) {
+  if (string.toLowerCase('HELLO') === string) {
     return 'I can\'t hear you!';
   }
 }
